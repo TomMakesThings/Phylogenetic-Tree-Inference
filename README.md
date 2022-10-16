@@ -1,4 +1,13 @@
-# Phylogenetic Tree Inference
+<div align="center">
+  <h1><b>Phylogenetic Tree Inference</b></h1>
+  <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/61354833?v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d">
+  <p><b>🟠 Code by <a href="https://github.com/TomMakesThings">TomMakesThings</a> 🟠</b></p>
+  <p><b><sub>🟢 October 2021 🟢</sub></b></p>
+</div>
+
+---
+
+## About
 <a href= "https://github.com/TomMakesThings/Phylogenetic-Tree/blob/main/Phylogenetics.ipynb">This notebook</a> contains code to find the optimal mutation rate and nucleotide assignments of a hypothetical evolutionary tree through applying the Jukes-Cantor model and Felsenstein’s algorithm.
 
 ## The Evolutionary Tree
