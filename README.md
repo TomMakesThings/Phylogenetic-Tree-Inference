@@ -8,7 +8,7 @@
 ---
 
 ## About
-<a href= "https://github.com/TomMakesThings/Phylogenetic-Tree/blob/main/Phylogenetics.ipynb">This notebook</a> contains code to find the optimal mutation rate and nucleotide assignments of a hypothetical evolutionary tree through applying the Jukes-Cantor model and Felsenstein’s algorithm.
+<a href= "https://github.com/TomMakesThings/Phylogenetic-Tree/blob/main/Phylogenetics.ipynb">This Jupyter notebook</a> contains code to find the optimal mutation rate and nucleotide assignments of a hypothetical evolutionary tree through applying the Jukes-Cantor model and Felsenstein’s algorithm.
 
 ## The Evolutionary Tree
 Evolutionary trees are a type of directed acyclic graph encapsulating an evolutionary process over time. For example, the binary tree below is a model of DNA sequence evolution whereby each internal node represents an ancestor with two descendants, the branch length between them represents time and leaf node represents the terminal taxa, i.e. the most recent descendant for which a nucleotide base is known.
