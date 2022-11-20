@@ -8,14 +8,14 @@
 ---
 
 ## About
-<a href= "https://github.com/TomMakesThings/Phylogenetic-Tree/blob/main/Phylogenetics.ipynb">This Jupyter notebook</a> contains code to find the optimal mutation rate and nucleotide assignments of a hypothetical evolutionary tree through applying the Jukes-Cantor model and Felsenstein’s algorithm.
+<a href= "https://github.com/TomMakesThings/Phylogenetic-Tree/blob/main/Phylogenetics.ipynb">This Jupyter notebook</a> contains code to find the optimal mutation rate and single nucleotide polymorphism (SNP) assignments of a hypothetical evolutionary tree through applying the Jukes-Cantor model and Felsenstein’s algorithm.
 
 ## The Evolutionary Tree
-Evolutionary trees are a type of directed acyclic graph encapsulating an evolutionary process over time. For example, the binary tree below is a model of DNA sequence evolution whereby each internal node represents an ancestor with two descendants, the branch length between them represents time and leaf node represents the terminal taxa, i.e. the most recent descendant for which a nucleotide base is known.
+Evolutionary trees are a type of directed acyclic graph encapsulating an evolutionary process over time. For example, the binary tree below is a model of DNA sequence evolution. Each internal node represents an ancestor with two descendants, the branch length between them represents time and leaf node represents the terminal taxa, i.e. the most recent descendant for which an SNP is known.
 
 <div align="center">
   <img src="https://github.com/TomMakesThings/Phylogenetic-Tree-Inference/blob/assets/Images/Phylogenetic_Tree_Annotated.png" width=700>
 </div>
 
 ## Jukes-Cantor and Felsenstein’s Pruning Algorithm
-The Jukes-Cantor model is Markov model of DNA sequence evolution used when calculating the likelihood of a phylogenetic tree. It assumes that the mutation rate μ is equal and that the substitution of a base with another occurs with equal probability. Felsenstein’s pruning algorithm is a dynamic programming algorithm that computes the likelihood of an evolutionary tree from sequence data. Combining the Jukes-Cantor model with Felsenstein’s pruning algorithm provides a quantive method for assessing the optimal mutation rate and/or likelihood of a nucleotide assignment for terminal taxa.
+The Jukes-Cantor model is Markov model of DNA sequence evolution used when calculating the likelihood of a phylogenetic tree. It assumes that the mutation rate $\mu$ is equal and that the substitution of a base with another occurs with equal probability, i.e. each element in $\pi = (\pi_{A} = \pi_{C} = \pi_{T} = \pi_{G})$ equals $\frac{1}{4}$. Felsenstein’s pruning algorithm is a dynamic programming algorithm that computes the likelihood $\mathcal{L}$ of an evolutionary tree from sequence data. Combining the Jukes-Cantor model with Felsenstein’s pruning algorithm provides a quantive method for assessing the optimal mutation rate and/or likelihood of SNP assignment for terminal taxa.
